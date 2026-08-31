@@ -1,0 +1,124 @@
+# Atividade — Normalização do Banco de Dados
+
+## 1. Banco de dados utilizado
+
+O grupo deverá utilizar **o mesmo banco de dados desenvolvido desde o início do semestre**.
+
+Como ponto de partida para a análise, deverá ser utilizado o arquivo SQL produzido na **Aula 8**.
+
+Não deverá ser criado um banco de dados fictício ou um exemplo diferente do projeto do grupo.
+
+---
+
+## 2. Comparação com o SQL da Aula 8
+
+O grupo deverá recuperar o SQL produzido na **Aula 8** e compará-lo com a estrutura atual do banco de dados.
+
+A comparação deverá considerar:
+
+- Estrutura das tabelas;
+- Atributos;
+- Chaves primárias;
+- Chaves estrangeiras;
+- Dependências funcionais;
+- Redundâncias;
+- Alterações realizadas na estrutura.
+
+O SQL da Aula 8 deverá ser preservado para permitir a comparação com o modelo normalizado.
+
+---
+
+## 3. Aplicação das Formas Normais
+
+O grupo deverá aplicar ao próprio banco de dados as formas normais estudadas na disciplina:
+
+- Primeira Forma Normal (1FN);
+- Segunda Forma Normal (2FN);
+- Terceira Forma Normal (3FN);
+- Quarta Forma Normal (4FN);
+- Quinta Forma Normal (5FN).
+
+A análise deverá demonstrar a evolução do banco desde a estrutura apresentada na Aula 8 até o modelo final.
+
+Para cada forma normal, o grupo deverá verificar se existe alguma violação e, caso exista, realizar a alteração necessária.
+
+Cada alteração deverá ser acompanhada de uma justificativa técnica.
+
+Caso o banco já atenda a determinada forma normal, o grupo deverá apresentar a justificativa demonstrando por que nenhuma alteração é necessária.
+
+O processo deverá ser apresentado da seguinte forma:
+
+```text
+SQL da Aula 8
+      ↓
+     1FN
+      ↓
+     2FN
+      ↓
+     3FN
+      ↓
+     4FN
+      ↓
+     5FN
+      ↓
+Modelo final normalizado
+```
+
+---
+
+## 4. SQL final
+
+Após concluir a normalização, o grupo deverá produzir o novo SQL do banco.
+
+O SQL final deverá representar exatamente o modelo normalizado apresentado na atividade.
+
+Deverão ser entregues os dois arquivos:
+
+```text
+sql_aula_8.sql
+```
+
+Representando o banco produzido anteriormente.
+
+```text
+sql_normalizado.sql
+```
+
+Representando o banco após a aplicação das formas normais.
+
+---
+
+## 5. Observação importante
+
+Nem todo banco necessariamente apresentará violações em todas as cinco formas normais.
+
+Portanto, **não é necessário modificar uma tabela apenas para demonstrar que uma determinada forma normal foi aplicada**.
+
+Se o banco já atender a determinada forma normal, o grupo deverá demonstrar isso por meio da análise das dependências e justificar por que nenhuma alteração é necessária.
+
+O objetivo é analisar o banco desenvolvido pelo grupo e demonstrar, tecnicamente, em qual nível de normalização ele se encontra e quais alterações foram necessárias para chegar ao modelo final.
+
+---
+
+## 6. Entrega
+
+A entrega deverá conter:
+
+```text
+/
+├── sql_aula_8.sql
+├── sql_normalizado.sql
+└── normalizacao.md
+```
+
+O arquivo `normalizacao.md` deverá apresentar a análise realizada, incluindo:
+
+- Comparação com o SQL da Aula 8;
+- Aplicação da 1FN, 2FN, 3FN, 4FN e 5FN;
+- Justificativa das alterações realizadas;
+- Justificativa das formas normais que não exigiram alterações;
+- Descrição do modelo final normalizado.
+
+### Critério fundamental
+
+A avaliação será baseada na capacidade do grupo de **aplicar corretamente as formas normais ao próprio banco de dados e justificar tecnicamente as alterações realizadas**, e não na quantidade de tabelas criadas.
