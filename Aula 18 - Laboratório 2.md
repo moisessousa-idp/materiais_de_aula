@@ -1,4 +1,4 @@
-# Roteiro Prático: Laboratório 01 – Parte 2 (Avançado)
+# Roteiro Prático: Laboratório 01 – Parte 2
 
 **Disciplina:** Banco de Dados  
 **Carga Horária Prática:** 2 horas (120 minutos)  
