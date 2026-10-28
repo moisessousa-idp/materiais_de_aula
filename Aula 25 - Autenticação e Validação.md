@@ -1,4 +1,4 @@
-# Aula 27 – Prática: Login e Validação no Sistema do Aeroporto
+# Aula 25 – Prática: Login e Validação no Sistema do Aeroporto
 
 **Duração:** 20 min
 **Projeto:** o sistema do aeroporto (PHP + MySQL) que vocês já vêm construindo, com o model de voos (listar, criar, editar e excluir).
