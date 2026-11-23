@@ -29,7 +29,7 @@ Usem as tabelas e os campos do projeto de vocês. Se faltar algum dado, anotem c
 
 Definam o modelo que alimenta os painéis:
 
-- O **grão**: *"Uma linha da fato representa..."*
+- O **grão**: *"Uma linha do fato representa..."*
 - As **medidas** (aditivas, semiaditivas ou não aditivas).
 - As **dimensões** e seus atributos principais (inclua a **dimensão tempo**).
 - Desenhem a estrela.
@@ -95,11 +95,3 @@ Para cada consulta, indiquem: **o que entra no `GROUP BY`**, **o que entra no `W
 
 ---
 
-## Avaliação
-
-| Critério | Peso |
-|---|---|
-| Modelo estrela (grão, medidas, dimensões) | 35% |
-| Fichas e estrutura das consultas | 35% |
-| Painel livre: pertinência e justificativa | 15% |
-| ETL e wireframe | 15% |
