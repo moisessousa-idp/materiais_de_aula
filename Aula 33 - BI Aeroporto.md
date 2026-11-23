@@ -1,10 +1,5 @@
 # Prática: Painéis do Aeroporto
 
-**Disciplina:** Banco de Dados · **Aula 23:** Data Warehouse, OLTP e OLAP
-**Formato:** em duplas · **Tempo:** 40 minutos · **Entrega:** ao final da aula
-
----
-
 ## Situação
 
 A direção do aeroporto quer acompanhar a operação por meio de **painéis**. O sistema que vocês estão montando é **OLTP**; para alimentar os painéis, é preciso um **modelo dimensional** e **consultas analíticas**.
