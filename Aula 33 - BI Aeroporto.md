@@ -68,7 +68,7 @@ Para cada consulta, indiquem: **o que entra no `GROUP BY`**, **o que entra no `W
 
 ---
 
-## Entregáveis (uma folha por dupla)
+## Entregáveis
 
 1. Modelo estrela com **grão, medidas e dimensões**.
 2. **Cinco fichas** de painel.
